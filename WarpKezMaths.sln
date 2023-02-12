@@ -5,6 +5,14 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarpKezMaths", "WarpKezMaths\WarpKezMaths.csproj", "{EF11276A-5345-4DED-B95F-931A73327240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{15C112F9-8ADF-4731-8584-87E39815240C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76B62E6D-7EAE-4EA9-AD3B-05B6B2DAE69F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,10 @@ Global
 		{EF11276A-5345-4DED-B95F-931A73327240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF11276A-5345-4DED-B95F-931A73327240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF11276A-5345-4DED-B95F-931A73327240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C112F9-8ADF-4731-8584-87E39815240C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C112F9-8ADF-4731-8584-87E39815240C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C112F9-8ADF-4731-8584-87E39815240C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C112F9-8ADF-4731-8584-87E39815240C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
