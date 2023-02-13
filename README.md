@@ -3,7 +3,6 @@
 ## Models
 
 ### CompoundFractionModels
-
-units
-numerator
-denominator
+- units
+- numerator
+- denominator
