@@ -7,6 +7,6 @@ namespace WarpKezMaths.Models;
 /// </summary>
 public class FractionModel
 {
-    public int numerator { get; set; }
-    public int denominator { get; set; }
+    public int Numerator { get; set; }
+    public int Denominator { get; set; }
 }

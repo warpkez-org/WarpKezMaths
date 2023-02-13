@@ -9,8 +9,8 @@ public class FractionMathematics
     {
         return new FractionModel
         {
-            numerator = compoundFraction.unit * compoundFraction.denominator + compoundFraction.numerator,
-            denominator = compoundFraction.denominator
+            Numerator = compoundFraction.Unit * compoundFraction.Denominator + compoundFraction.Numerator,
+            Denominator = compoundFraction.Denominator
         };
     }
 
@@ -18,20 +18,20 @@ public class FractionMathematics
     {
         return new FractionModel
         {
-            numerator = Unit * Denominator + Numerator,
-            denominator = Denominator
+            Numerator = Unit * Denominator + Numerator,
+            Denominator = Denominator
         };
     }
 
     public static CompoundFractionModel CompoundFraction(FractionModel Fraction)
     {
-        int _unit = Math.Abs(Fraction.numerator / Fraction.denominator);
+        int _unit = Math.Abs(Fraction.Numerator / Fraction.Denominator);
 
         return new()
         {
-            unit = _unit,
-            numerator = Fraction.numerator - _unit * Fraction.denominator,
-            denominator = Fraction.denominator
+            Unit = _unit,
+            Numerator = Fraction.Numerator - _unit * Fraction.Denominator,
+            Denominator = Fraction.Denominator
         };
     }
 
@@ -41,9 +41,9 @@ public class FractionMathematics
 
         return new()
         {
-            unit = _unit,
-            numerator = Numerator - _unit * Denominator,
-            denominator = Denominator
+            Unit = _unit,
+            Numerator = Numerator - _unit * Denominator,
+            Denominator = Denominator
         };
     }
 
@@ -88,15 +88,15 @@ public class FractionMathematics
         {
             int unit = Math.Abs(values[0] / values[1]);
             int newNumerator = values[0] - unit * values[1];
-            simplifiedFraction.unit = unit;
-            simplifiedFraction.numerator = newNumerator;
-            simplifiedFraction.denominator = values[1];
+            simplifiedFraction.Unit = unit;
+            simplifiedFraction.Numerator = newNumerator;
+            simplifiedFraction.Denominator = values[1];
         }
         else
         {
-            simplifiedFraction.unit = 0;
-            simplifiedFraction.numerator = values[0];
-            simplifiedFraction.denominator = values[1];
+            simplifiedFraction.Unit = 0;
+            simplifiedFraction.Numerator = values[0];
+            simplifiedFraction.Denominator = values[1];
         }
 
         return simplifiedFraction;
