@@ -4,6 +4,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>$(AssemblyName)</Title>
+    <Version>0.0.1</Version>
+    <Company>Wayne Jackson</Company>
+    <PackageProjectUrl>https://github.com/warpkez-org/WarpKezMaths</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/warpkez-org/WarpKezMaths</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
